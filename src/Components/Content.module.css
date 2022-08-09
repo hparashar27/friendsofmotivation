@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: #d5d4d0;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    height: 10rem;
+}
+
+.content1{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+.content2{
+    margin-left: 50px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.contentpic{
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+
+.belcontitems{
+    display: flex;
+}

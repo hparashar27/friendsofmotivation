@@ -1,0 +1,16 @@
+.belowcontent{
+ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.logo2{
+    height: 100%;
+    width: 100%;
+    transition: transform 400ms;
+}
+
+.logo2:hover{
+    transform: scale(1.08);
+}
