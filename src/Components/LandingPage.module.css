@@ -65,9 +65,13 @@ margin-top: 4px;
     border: solid #fff;
     border-radius: 6px;
     font-family: Poppins ;
-    
-    
+    transition: transform 400ms;
 }
+
+.cartrowitem:hover{
+transform: scale(1.08);
+}
+
 
 .icon{
     height: 22px;

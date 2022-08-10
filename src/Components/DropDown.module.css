@@ -1,0 +1,95 @@
+.Dropdownlist{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(4,1fr);
+    height: 20rem;
+}
+
+.Dropdown1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: black;
+    padding: 40px;
+}
+
+
+.contact{
+    background-color: black;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.headline{
+background-color: black;
+margin-bottom: 40px;
+margin-top: 40px;
+font-size: 1.3rem;
+}
+
+
+.headline2{
+    background-color: black;
+    list-style: none;
+    font-size: 1rem;
+}
+
+
+.headline3{
+    background-color: black;
+    padding-bottom: 8px;
+}
+
+.headline3:hover{
+    color: gray;
+
+}
+.contact1{
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Poppins;
+}
+
+.logo{
+margin-bottom: 20px;
+margin-left: 20px;
+height: 90px;
+width: 100px;
+}
+
+.newsletter{
+margin-bottom: 40px;
+margin-top: 40px;
+background-color: black;
+font-size: 1.3rem;
+
+}
+
+.social{
+    list-style: none;
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.socialicon{
+background-color :black;
+color: #fff;
+border: black;
+height: 27px;
+width: 27px;
+/* padding: 10px; */
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+}
+

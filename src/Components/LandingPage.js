@@ -4,13 +4,14 @@ import { BsFillCartPlusFill } from "react-icons/bs";
 import { MdFavorite } from "react-icons/md";
 import Content from "./Content";
 import BelowContent from "./BelowContent";
+import Dropdown from "./Dropdown";
 
 const LandingPage = () => {
   return (
     <>
       <div className={classes.body}>
         <header className={`${classes.nav}`}>
-          <img src={require("./fomlogo.png")} className={classes.logo} />
+          <img src={require("./ImgVidfiles/fomlogo.png")} className={classes.logo} />
           <div className={classes.nav}>
             <ul className={classes.list}>
               <li className={classes.listitem}>About Us</li>
@@ -35,6 +36,7 @@ const LandingPage = () => {
         </div>
         <Content />
         <BelowContent className={classes.belcontitems}/>
+        <Dropdown/>
       </div>
     </>
   );
