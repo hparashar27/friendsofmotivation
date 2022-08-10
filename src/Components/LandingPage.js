@@ -5,13 +5,18 @@ import { MdFavorite } from "react-icons/md";
 import Content from "./Content";
 import BelowContent from "./BelowContent";
 import Dropdown from "./Dropdown";
+import Products from "./Products";
+import Point from "./Point";
 
 const LandingPage = () => {
   return (
     <>
       <div className={classes.body}>
         <header className={`${classes.nav}`}>
-          <img src={require("./ImgVidfiles/fomlogo.png")} className={classes.logo} />
+          <img
+            src={require("./ImgVidfiles/fomlogo.png")}
+            className={classes.logo}
+          />
           <div className={classes.nav}>
             <ul className={classes.list}>
               <li className={classes.listitem}>About Us</li>
@@ -35,9 +40,12 @@ const LandingPage = () => {
           </ul>
         </div>
         <Content />
+        <Products />
         <BelowContent className={classes.belcontitems}/>
-        <Dropdown/>
       </div>
+<Point/>
+      <Dropdown />
+      
     </>
   );
 };
